@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div, header, footer{
+    border: grey solid 1px;
+
+}
+.caja-principal{
+    height: 90vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(204, 200, 200);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: white;
+}
+.caja-foto, .caja-icono{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.caja-nombre{
+    
+    height: 60px;
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja-medio{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+.cajas-centrales{
+    height: 60px;
+    padding: 5px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+footer{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+}
+.boton-footer{
+    width: 160px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}

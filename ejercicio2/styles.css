@@ -1,0 +1,22 @@
+div{
+    border: rebeccapurple solid;
+    height: 200px;
+}
+.caja-contenedora{
+    width: 100%;
+    display: flex;
+}
+.caja1{
+    flex-basis: 25%;
+}
+.caja3{
+    flex-basis: 25%;
+}
+.caja5{
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+.caja6{
+    width: 50%;
+    flex-grow: 2;
+}

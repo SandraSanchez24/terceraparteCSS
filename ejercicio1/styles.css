@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+div {
+    border: red solid;
+    height: 200px;
+}
+.caja-contenedora {
+    width: 100%;
+    display: flex;
+}
+.caja1 {
+    width: 250px;
+}
+.caja2 {
+    flex-grow: 2;
+}
+.caja3 {
+    width: 200px;
+}
+.caja4 {
+    flex-grow: 2;
+}
+.caja5 {
+    flex-grow: 1;
+}
+.caja6{
+    flex-grow: 2;
+}
+.caja7{
+    flex-grow: 1;
+}
+.caja8{
+    width: 60%;
+}
+.caja9{
+    width: 20%;
+}

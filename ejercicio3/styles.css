@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+div{
+    border: gray solid 3px;
+}
+.caja-contenedora{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.caja-img{
+    width: 22%;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+img{
+    width: 250px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.caja-informativa{
+    width: 70%;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
